@@ -1,0 +1,26 @@
+more importers.
+    xmls
+        -   build with cryptopp?
+        -   emscripten?
+        -   maybe figure out why js version doesnt work?
+    DXF :)
+    DEEEDUBBLEUUUGEEEE
+    native geometry properties ? e.g. arcs. to be exported when supported by export format.
+
+more exporters.
+    FC2???
+        consider all geometry as 2d then do stuff?
+    Blueprint?
+    MAPP3D?
+     collada?
+
+Tools - 
+    Allow geometry selection and removal.
+    Simplification by error margin?
+    - Drawing! :~)
+    - import of pointclouds etc, snapping.
+    - mirroring.
+
+Prettier rendering.
+ - prediction (!)
+

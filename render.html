@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+		<title>Convertificate 3D</title>
+		<style>
+			.upload-container {
+				position: relative;
+			}
+			.upload-container input {
+				border: 1px solid #92b0b3;
+				background: #f1f1f1;
+				outline: 2px dashed #92b0b3;
+				outline-offset: -10px;
+				padding: 100px 0px 100px 250px;
+				text-align: center !important;
+				width: 500px;
+			}
+			.upload-container input:hover {
+				background: #ddd;
+			}	
+			.upload-container:before {
+				position: absolute;
+				bottom: 50px;
+				left: 245px;
+				content: " Drag and Drop files here. ";
+				color: #3f8188;
+				font-weight: 900;
+			}	
+			.upload-btn {
+				margin-left: 300px;
+				padding: 7px 20px;
+			}        
+		</style>
+		<script type="module" src="/render.js"></script>
+
+	</head>
+	<body>
+		<div id="export">
+			<button id="exportSV">Export SV</button>
+			<button id="exportOBJ">Export OBJ</button>
+			<button id="exportDBACV">Export DBACV</button>
+
+
+		</div>
+		<div class="upload-container" id="drop">
+			<input type="file" id="file_upload"/>
+		</div>
+	</body>
+</html> 
